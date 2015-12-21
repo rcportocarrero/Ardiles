@@ -3,13 +3,11 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
-        "pluginId": "cordova-plugin-whitelist",
         "runs": true
     },
     {
         "file": "plugins/com.phonegap.plugins.sqlite/www/SQLitePlugin.js",
         "id": "com.phonegap.plugins.sqlite.SQLitePlugin",
-        "pluginId": "com.phonegap.plugins.sqlite",
         "clobbers": [
             "SQLitePlugin"
         ]
